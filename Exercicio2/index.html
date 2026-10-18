@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+    </header>
+    
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtAno" id="txtAno" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radSex" id="masc" checked>
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radSex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+        
+        <div id="res">
+            Preencha os dados acima para prosseguir
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Gabriel C Costa </p>
+    </footer>
+
+      <a class='botao' target="_blank" href="/Exercicio3/index.html">Proximo</a>
+    <script src="script.js"></script>
+</body>
+</html>
