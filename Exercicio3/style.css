@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgba(28, 28, 219, 0.829);
+}
+
+header{
+    color: #fff;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    width: 500px;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+    margin: auto;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+
+div {   
+    padding: 8px;
+    
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
