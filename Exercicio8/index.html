@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        body {
+            background-color: rgb(67, 186, 241);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .titulo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 50px;
+            margin-top: 10px;
+            color: #fff;
+        }
+
+        .divPai {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            width: 600px;
+            height: 300px;
+            border-radius: 10%;
+        }
+
+        .footer {
+            color: #fff;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body onload="carregar()" class="corpo">
+    <header>
+        <h1 class="titulo">Hora do dia</h1>
+    </header>
+    <section>
+        <div class="divPai" id="divPai">
+        Teste
+    </div>
+
+    <div class="divFilho" id="divFilho">
+
+    </div>
+    </section>
+
+
+    <p class="footer">&copy;Gabriel C Costa</p>
+
+    <script src="script.js"></script>
+</body>
+</html>
