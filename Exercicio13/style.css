@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+    width: 500px;
+}
+
+select#flista {
+    width: 150px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+
+/* class */
+
+.div1 {
+
+}
+

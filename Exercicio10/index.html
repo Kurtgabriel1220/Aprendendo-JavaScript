@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo JavaScript</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .div1 {
+            width: 600px;
+            height: 300px;
+            background-color: aqua;
+            border-radius: 6%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        #input {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Titulo</h1>
+    </header>
+    <section>
+        <div class="div1">
+            Comeco <input type="number" value="number1" name="numero1" id="n1" >
+            Fim <input type="number" value="number2" name="numero2" id="n2">
+            <input type="button" value="somar" onclick="somar()" id="input">
+        </div>
+
+        <div class="div2">
+
+        </div>
+        
+    </section>
+    <footer>
+        <p>&copy;Gabriel C Costa</p>
+    </footer>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
