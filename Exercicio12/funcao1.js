@@ -11,4 +11,4 @@ console.log(parimpar(2))
 /* Feito pelo o curso */
 
 let res = parimpar(5)
-console.log(res)
+console.log(res) 

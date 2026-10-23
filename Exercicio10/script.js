@@ -7,4 +7,4 @@ function somar() {
     let soma = i + f
 
     alert(`O resultado de ${i} e ${f} E de ${soma}`)
-} 
+}  

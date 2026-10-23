@@ -16,7 +16,7 @@ for(let pos=0;n.length;p++) {
     valores.sort()
     
     let a = valores.indexOf(8)
-
+ 
     if (a == -1) {
         console.log(`O valor nao foi encontrado`)
     } else {

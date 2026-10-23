@@ -3,4 +3,4 @@ function soma (n1, n2=0) {
 }
 
 console.log(soma(2))
-console.log(soma(2, 100))
+console.log(soma(2, 100)) 
